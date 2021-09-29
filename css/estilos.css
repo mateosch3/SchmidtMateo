@@ -1,0 +1,213 @@
+
+a{
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+    width: 18%;
+    position:relative;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+.menuFlex{
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;       
+    align-items: center;
+    list-style: none;
+}
+.menuFlex li a:hover {
+	background-color: #8C6582;
+	color: white;
+	padding: 20px;
+    width: 100px;
+}
+
+header{
+    background-color: #b41148;
+    color: white;
+    background-image: linear-gradient(#f79eb6, #F2BBC9);
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    height: 100px;
+}
+header nav .menuFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 40px;
+    font-size: 1.2rem;
+  }
+
+.colorListas{
+    color: #180F26;
+}
+
+table{
+    color: #292D73;
+    border: 3px solid;
+}
+
+.primerTitulo{
+    color: #c53d3d;
+    text-decoration-line: underline;
+    font-size: 40px; 
+    line-height: 100px;
+    font-family: 'Black Ops One', cursive;
+    word-spacing: 10px;
+    background-color:#180F26 ;
+    text-align: center;
+    background-image: url("../imagenes/pink.jpg");
+    height: 100px;
+    background-repeat:repeat;
+    background-size: 20%;
+}
+
+
+.tituloDos {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: #81171785;
+    text-align: center;
+}
+
+
+
+footer{
+    background-image: linear-gradient(#f79eb6, #F2BBC9);
+    width: 100%;
+    height: 300px;
+}
+
+
+
+#video{
+    text-align: center;
+}
+
+
+.index{
+    display: grid;
+    grid-template-areas:  "texto  imagen"
+                            "info  imagen"; 
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:3fr  1fr;
+    
+
+
+}
+
+article{
+    grid-area: texto;
+}
+aside{
+    grid-area: imagen; 
+    align-self: center;
+    justify-self: center;
+   
+}
+#pink{
+    transition:all 2s
+}
+#pink:hover{
+   height: 150px;
+   width:150px;
+}
+.infor{
+    grid-area: info; 
+}
+
+/*
+.fotos{
+    display: grid;
+    grid-template-areas: "uno dos tres cuatro" "uno dos tres cuatro";
+    grid-template-columns:repeat(4,1fr) ;
+    grid-template-rows: 1fr ;
+    justify-content: center;
+}
+
+.uno{
+    grid-area: uno;
+    align-self: center;
+}
+.dos{
+    grid-area: dos;
+    align-self: center;
+}
+.tres{
+    grid-area: tres;
+    align-self: center;
+}
+.cuatro{
+    grid-area: cuatro;
+    align-self: center;
+}
+
+
+.imagenesDisco{
+    display: grid;
+    grid-template-areas: "foto1 contenido1" 
+                        "foto2 contenido2"
+                        "foto3 contenido3"
+                        "foto4 contenido4";
+    grid-template-columns:20% 80% ;
+    grid-template-rows: repeat(4.2fr) ;
+    justify-content: center;
+
+}
+.fotoUno{
+    grid-area: foto1;
+    align-self:center;
+    justify-self: center;
+   
+}
+.fotoDos{
+    grid-area: foto2;
+    align-self: center;
+    justify-self: center;
+}
+.fotoTres{
+    grid-area: foto3;
+    align-self: center;
+    justify-self: center;
+}
+.fotoCuatro{
+    grid-area: foto4;
+    align-self: center;
+    justify-self: center;
+}
+.contenido1{
+    grid-area: contenido1;
+    justify-self: center;
+}
+.contenido2{
+    grid-area: contenido2;
+    justify-self: center;
+}.contenido3{
+    grid-area: contenido3;
+    justify-self: center;
+}.contenido4{
+    grid-area: contenido4;
+    justify-self: center;
+}
+
+.fotoUno :hover{
+  transform: scale(2,1);   
+}
+.fotoDos :hover{
+    transform: scale(2,1);   
+  }
+  .fotoTres :hover{
+    transform: scale(2,1);   
+  }
+  .fotoCuatro :hover{
+    transform: scale(2,1);   
+  }
+/*

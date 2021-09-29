@@ -1,0 +1,66 @@
+.fechas {
+  padding-right: 0;
+  padding-left: 0;
+  background-color: #F2BBC9;     
+  position: relative; }
+  .fechas p {
+    margin: 0;
+    color: black;
+    position: relative;
+    padding: 0.7rem; }
+    .fechas p:hover {
+      background-color: black;
+      color: white; }
+    .fechas p span {
+      position: absolute;
+      right: 40%; }
+    .fechas p strong {
+      position: absolute;
+      right: 1rem;
+      cursor: pointer; }
+      .fechas p strong:hover {
+        color: pink; }
+
+.fechas {
+  position: relative;
+  z-index: 10; }
+
+.titulo__uno {
+  color: #c53d3d;
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #F2BBC9;
+  text-align: center; }
+
+.imagen__uno {
+  height: 250px;
+  width: 450px; }
+
+.texto__principal {
+  text-align: center;
+  font-variant: small-caps; }
+
+.texto__dos {
+  text-align: center;
+  font-variant: small-caps; }
+
+video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100; }
+
+#portada {
+  height: 100vh; }
+
+#tituloPrincipal {
+  color: #4b1829;
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 4rem;
+  line-height: 1.3; }
+
+.contenedor-galeria {
+  padding: 0.3rem; }

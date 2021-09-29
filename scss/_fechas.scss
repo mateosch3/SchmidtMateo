@@ -1,0 +1,32 @@
+#fechas{
+    padding-right: 0;
+    padding-left: 0;
+    background-color: #F2BBC9;
+    position: relative;
+    p{
+        margin: 0;
+        color: black;  
+        position: relative;
+        padding: 0.7rem; 
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+        span{
+            position: absolute;
+            right: 40%;   
+        }
+        strong{
+            position: absolute;
+            right: 1rem;
+            cursor: pointer;
+            &:hover{
+                color: pink
+            }
+        }
+    }
+}
+#fechas{
+    position: relative;
+    z-index: 10; 
+}   
